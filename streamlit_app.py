@@ -33,7 +33,7 @@ model = load_model('chatbot_model.h5')
 
 intents = json.loads(open('Alex-Music-Chatbot/files_required/intents.json').read())
 words = pickle.load(open('Alex-Music-Chatbot/files_required/words.pkl','rb'))
-classes = pickle.load(open('BreadcrumbsAlex-Music-Chatbot/files_required/classes.pkl','rb'))
+classes = pickle.load(open('Alex-Music-Chatbot/files_required/classes.pkl','rb'))
 def clean_up_sentence(sentence):
     # tokenize the pattern - splitting words into array
     sentence_words = nltk.word_tokenize(sentence)
