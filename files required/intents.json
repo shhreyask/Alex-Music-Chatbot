@@ -1,4 +1,3 @@
-intents.json
 {"intents": [
         {"tag": "greeting",
          "patterns": ["hi", "hello", "whats up", "sup", "is anyone there", "whats good", "hey"],
