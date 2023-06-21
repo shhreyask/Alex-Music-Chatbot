@@ -6,5 +6,4 @@ numpy
 canaro
 tensorflow
 nltk
-json 
 pickle
