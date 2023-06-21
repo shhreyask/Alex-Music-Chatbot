@@ -31,9 +31,9 @@ import pickle
 from keras.models import load_model
 model = load_model('chatbot_model.h5')
 
-intents = json.loads(open('/content/drive/MyDrive/Colab Notebooks/intents.json').read())
-words = pickle.load(open('/content/drive/MyDrive/Colab Notebooks/words.pkl','rb'))
-classes = pickle.load(open('/content/drive/MyDrive/Colab Notebooks/classes.pkl','rb'))
+intents = json.loads(open('Alex-Music-Chatbot/files_required/intents.json').read())
+words = pickle.load(open('Alex-Music-Chatbot/files_required/words.pkl','rb'))
+classes = pickle.load(open('BreadcrumbsAlex-Music-Chatbot/files_required/classes.pkl','rb'))
 def clean_up_sentence(sentence):
     # tokenize the pattern - splitting words into array
     sentence_words = nltk.word_tokenize(sentence)
@@ -91,7 +91,7 @@ def responsed(msg1):
 #getting google nlp api
 from google.cloud import language_v1
 from google.oauth2 import service_account
-credentials = service_account.Credentials.from_service_account_file('/content/drive/MyDrive/Colab Notebooks/spry-compound-385912-eafbf1b97368.json')
+credentials = service_account.Credentials.from_service_account_file('Alex-Music-Chatbot/files_required/spry-compound-385912-eafbf1b97368.json')
 client = language_v1.LanguageServiceClient(credentials=credentials)
 
 def analyze_sentiment(text):
