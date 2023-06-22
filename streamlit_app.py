@@ -26,12 +26,12 @@ import pickle
 
 #Cell2 Model functions
 #For user needs, creating functions using model
+from keras.models import load_model
+model = load_model('files_required/chatbot_model.h5')
+
 intents = json.loads(open('files_required/intents.json').read())
 words = pickle.load(open('files_required/words.pkl','rb'))
 classes = pickle.load(open('files_required/classes.pkl','rb'))
-
-from keras.models import load_model
-model = load_model('files_required/chatbot_model.h5')
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - splitting words into array
