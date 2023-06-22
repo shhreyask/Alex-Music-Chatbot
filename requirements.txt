@@ -6,3 +6,4 @@ numpy
 canaro
 tensorflow
 nltk
+google-cloud
