@@ -28,7 +28,7 @@ import pickle
 #For user needs, creating functions using model
 
 from keras.models import load_model
-model = load_model('chatbot_model.h5')
+model = load_model('Alex-Music-Chatbot/files_required/chatbot_model.h5')
 
 intents = json.loads(open('Alex-Music-Chatbot/files_required/intents.json').read())
 words = pickle.load(open('Alex-Music-Chatbot/files_required/words.pkl','rb'))
