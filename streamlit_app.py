@@ -32,7 +32,7 @@ import subprocess
 # if not os.path.isfile('model.h5'):
 #     subprocess.run(['curl --output model.h5 "https://github.com/shhreyask/Alex-Music-Chatbot/blob/b425806946997d9c74b479709b7634a65e00ff19/model/chatbot_model.h5"'], shell=True)
 # model = load_model('model.h5', compile=False)
-model = load_model('./model/chatbot_model.h5', compile=False)
+model = load_model('/app/alex-music-chatbot/model/chatbot_model.h5', compile=False)
 
 
 intents = json.loads(open('files_required/intents.json').read())
