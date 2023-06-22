@@ -28,6 +28,7 @@ import pickle
 #For user needs, creating functions using model
 from keras.models import load_model
 import subprocess
+import os
 if not os.path.isfile('model.h5'):
     subprocess.run(['curl --output model.h5 "https://github.com/shhreyask/Alex-Music-Chatbot/blob/f5255ac52d2b920a3f6c9fba2d71acde6e381208/files_required/chatbot_model.h5"'], shell=True)
 # model = load_model('files_required/chatbot_model.h5')
