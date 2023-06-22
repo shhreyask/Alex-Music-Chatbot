@@ -15,6 +15,7 @@ import random
 
 import nltk
 nltk.download('wordnet')
+nltk.download('punkt')
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
