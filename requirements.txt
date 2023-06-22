@@ -6,4 +6,8 @@ numpy
 canaro
 tensorflow
 nltk
-google-cloud
+google-cloud-speech
+google-cloud-storage
+google-cloud-aiplatform
+google-cloud-bigquery
+google-cloud-domains
