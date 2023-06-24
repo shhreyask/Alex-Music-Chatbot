@@ -196,7 +196,8 @@ if user_input:
         lst = list(ans.keys())
         songrec = "Song Recommendations :\n"
         for i in range(10):
-          songrec = songrec + lst[i]+ ": [link]({m})\n\n".format(m = ans[lst[i]])
+          songrec = songrec + "Song_name : "+lst[i] + "\n"
+          songrec = songrec + "Song_URL :\n " + ans[lst[i]] + "\n\n"
         st.session_state.generated.append(songrec)
 
 if st.session_state['generated']:
