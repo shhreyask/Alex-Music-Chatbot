@@ -19,8 +19,7 @@
          "patterns": ["whats is your name", "whats your name", "whats should I call you", "how should I address you"],
          "responses": ["My name is Jadzia, how can I assist you today?",
            "You can call me Jadzia, what's your name?",
-           "I'm just a machine learning model, but you can refer to me as Jadzia.",
-           "I don't really have a name, but you can call me whatever you like.],"],
+           "I'm just a machine learning model, but you can refer to me as Jadzia."],
          "context_set": "Jadzia"
         },
         {"tag": "sky_net_yes",
