@@ -154,10 +154,16 @@ if 'j' not in st.session_state:
 if 'emotion' not in st.session_state:
     st.session_state['emotion'] = ""
 
-def get_text():
-    input_text = st.text_input("You: ", key="input")
-    return input_text
+if 'something' not in st.session_state:
+    st.session_state.something = ''
 
+def submit():
+    st.session_state.something = st.session_state.input
+    st.session_state.input = ''
+
+def get_text():
+    st.text_input("You: ", key="input", on_change=submit)
+    return st.session_state.something
 
 user_input = get_text()
 
@@ -190,8 +196,7 @@ if user_input:
         lst = list(ans.keys())
         songrec = "Song Recommendations :\n"
         for i in range(10):
-          songrec = songrec + "Song_name : "+lst[i] + "\n"
-          songrec = songrec + "Song_URL :\n " + ans[lst[i]] + "\n\n"
+          songrec = songrec + lst[i]+ ": [link]({m})\n\n".format(m = ans[lst[i]])
         st.session_state.generated.append(songrec)
 
 if st.session_state['generated']:
