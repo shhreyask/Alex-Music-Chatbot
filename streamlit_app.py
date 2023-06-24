@@ -137,7 +137,7 @@ st.set_page_config(
     page_icon=":robot:"
 )
 
-st.header("Alex")
+st.header("Jadzia")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
