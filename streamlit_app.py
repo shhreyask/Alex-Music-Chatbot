@@ -212,9 +212,11 @@ if st.session_state['generated']:
         for i in range(len(st.session_state['past'])-1, -1, -1):
             message(st.session_state["generated"][i], key=str(i))
             message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
+        message("Hey there! Wassup!", key="intro2")
     else:
         message(st.session_state["generated"][5], key="emotionblock")
         message(st.session_state["generated"][6], key="songblock")
         for i in range(len(st.session_state['past'])-1, -1, -1):
             message(st.session_state["generated"][i], key=str(i))
             message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
+        message("Hey there! Wassup!", key="intro")
