@@ -151,6 +151,9 @@ if 'scores' not in st.session_state:
 if 'j' not in st.session_state:
     st.session_state['j'] = 0
 
+if 'a' not in st.session_state:
+    st.session_state['a'] = 0
+
 if 'emotion' not in st.session_state:
     st.session_state['emotion'] = ""
 
@@ -160,12 +163,16 @@ if 'something' not in st.session_state:
 def submit():
     st.session_state.something = st.session_state.input
     st.session_state.input = ''
+    st.session_state['a'] = st.session_state['a'] + 1
 
 def get_text():
     st.text_input("You: ", key="input", on_change=submit)
     return st.session_state.something
 
 user_input = get_text()
+
+if st.session_state['a'] == 0: 
+  message("Hey there! Wassup!", key="intro")
 
 if user_input:
     output = chatbot_response(user_input)
