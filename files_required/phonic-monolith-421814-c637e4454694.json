@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "phonic-monolith-421814",
+  "private_key_id": "c637e44546945b2f2f54698785942d3f2ee08d34",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6S7sX7jcyIayL\nyTTv3mjNCyfIOb6p9Qf3vlaO9uCqkCNTunCnj13YCC6MI5/tqh5qXTE5sGHFgVb9\nxBbpdTUCZ5LcOnKr0F5MVKfjgD2ROfMFRJRRQq5B8whKr+6lWFLfcd2REArlULJH\nFgaUzxzMr9tLnOhs8LqmAOyaPyL1JpspwPJYkxRhYNFNhypdktTiXoaTfZY5FOGN\nGMjYWuZtnG3loaYFOX0+jRrupTVUBStZLsiD1ajJW5o1YOWO1LUtATDxuVjJKTPZ\nw0aNwwaelDVTcZbzbbfDXFhtmut41MB/uHNlFrmJxmluBM0tenTTIcsaLgmxThu+\nMrlMqeg5AgMBAAECggEAAwGr4E6o4gyRvfkeUJdfS50teYQXuU3KC3aClnC83s56\ns3mOeIsjcZQYOYzC96ac3QyUpHYImJO7dVb6eQQPj0gKomE9w9trWiys6kqsiQZ4\nDz1fGLyhwVC3G+Ag/YF3vOwX2Pp6995zMhsp5LGUU71W0Fk/la/WOKL1LpFsSAEz\nb8k4ETxfPPaykJSiP9B+xFk9thJx9Wa8FI6aiP78MJDAP89UZUjDfNJePgAvOLOF\nuDrDF9pvS0DYoMNgDicc0UVGT+NGltNw5IZbVSd6TnV6INCvHOmVt5hA9Vl/P4Sm\nwU9H1dL2BRdKI2Cp/xjJBrBp5n3F6KeNy91pnhmmbQKBgQDnGSbNvxwp4MeBuOYQ\nnDvPEeT+BigFLVx1/utBR09EULNe7I6xZoLThEZHIc8SKtfwN0foLiYoywpVQb1D\nWDdc4/DLQze63MZQGPFOVnz8oYBzCBob8e1RrYIpcYpAVzR5L76Ejk5GvGUgvSq9\ntd7bNntpzNcEI1maAcCAapYBlwKBgQDOXrQoXK+uZQWJhdEQ7ufdgwTvbMg03Wc4\nK/w2GGHqrEtfW0ijoRhsMBsAkcFt5hzAPCr5MmGG2JsKT4imR+ucxXOS/CPpanul\nZS/qnllKd8OpiQb6f5kYlqAzmUhGMjChhdzFqp6IQDHJx6bRe0qRGzZVTb3fnJuR\ncrvtpS3+rwKBgQDIMN2QdfErxfCNy2JhGTYmVtYLx8F7WqQyAzZAQknEYDRCEqI5\nwxepq3hFvl/m2P5etUSxOOkNhXXaDSyq3gx3h23cZsosMXwJftHqjrmPD0h6XZZg\nht6SVr/eruCYg/KM2HMt2Sit1h20kqon1RjMxRF7wVqx1v2Tj9j2ZV602QKBgQCz\nu7uAY6kGZCl8arV43/nE7LVBqSZ9FE8vlu9kVbwB3OkQNbp/+HAC2arKxicHBiEI\nM97hhkV2YfQ1+Kr01zKXKUjNPRgx1HG3zPb8ickOmFwqrZMMXFEEHzuLdPaDXHcK\nVkG/TiggVniGWoIpdA2vb1nU1Y6G0CiVdq3B/difNQKBgExDg2BPVTkl9MUglDTx\nJNHJNVf25GutlrEQhprrbcmiuMxLdtB5oOy/YmURUD/7BWv42weQNk0lj0eDJbj9\nbdEvDMehAnUcbV/mRx7u+DtO2fOBMWJjKlz9MGA95089sQKUIGKKKayp6sl0aTXk\ntAo8ucNigE9rFXqBFvMT4XXR\n-----END PRIVATE KEY-----\n",
+  "client_email": "kappa-007@phonic-monolith-421814.iam.gserviceaccount.com",
+  "client_id": "113924087486055294612",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kappa-007%40phonic-monolith-421814.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
