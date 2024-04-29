@@ -97,7 +97,7 @@ def responsed(msg1):
 #getting google nlp api
 from google.cloud import language_v1
 from google.oauth2 import service_account
-credentials = service_account.Credentials.from_service_account_file('files_required/spry-compound-385912-eafbf1b97368.json')
+credentials = service_account.Credentials.from_service_account_file('files_required/phonic-monolith-421814-c637e4454694.json')
 client = language_v1.LanguageServiceClient(credentials=credentials)
 
 def analyze_sentiment(text):
